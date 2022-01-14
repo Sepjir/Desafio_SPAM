@@ -12,7 +12,7 @@ async function enviar(to, subject, html) {
     })
 
     let mailOptions = {
-        from: 'hola@cajadebotin.com',
+        from: 'SPAM Economy SPA <hola@cajadebotin.com>',
         to,
         subject,
         html,

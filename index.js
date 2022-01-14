@@ -28,10 +28,10 @@ http
             const plantilla = `
 <h2>Hola! Los indicadores economicos de hoy ${moment().locale("es-mx").format("LL")} son los siguientes:</h2><br> 
 
-- El valor del <strong>Dólar</strong> el día de hoy es: <strong>$${r.dolar.toLocaleString('es')}CLP</strong><br> 
-- El valor del <strong>Euro</strong> el día de hoy es: <strong>$${r.euro.toLocaleString('es')}CLP</strong><br> 
-- El valor de la <strong>UF</strong> el día de hoy es: <strong>$${r.uf.toLocaleString('es')}CLP</strong><br> 
-- El valor de la <strong>UTM</strong> el día de hoy es: <strong>$${r.utm.toLocaleString('es')}CLP</strong>
+- El valor del <strong>Dólar</strong> el día de hoy es: <strong>$${r.dolar.toLocaleString('es')} CLP</strong><br> 
+- El valor del <strong>Euro</strong> el día de hoy es: <strong>$${r.euro.toLocaleString('es')} CLP</strong><br> 
+- El valor de la <strong>UF</strong> el día de hoy es: <strong>$${r.uf.toLocaleString('es')} CLP</strong><br> 
+- El valor de la <strong>UTM</strong> el día de hoy es: <strong>$${r.utm.toLocaleString('es')} CLP</strong>
                         `
 //Validando "," dentro del parametro "correos" y enviando a través de la función "enviar" la información hacía los correos ingresados en el formulario
             if (correos.includes(",")) {
